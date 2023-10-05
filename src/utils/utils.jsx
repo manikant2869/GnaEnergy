@@ -12,7 +12,7 @@ export default {
 
         }
         try{
-          const data = await fetch(REACT_APP_API_BASEURL+ url,options).then(res => res.json());
+          const data = await fetch( baseurl + url,options).then(res => res.json());
           return data
         }catch(err){
            throw new Error(err)
