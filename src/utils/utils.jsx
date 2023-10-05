@@ -1,3 +1,4 @@
+const baseurl = import.meta.env.VITE_APP_API_BASEURL
 
 export default {
     async sendApiRequest(url,method,auth,body){
@@ -11,7 +12,7 @@ export default {
 
         }
         try{
-          const data = await fetch("http://localhost:3001"+ url,options).then(res => res.json());
+          const data = await fetch(  baseurl + url,options).then(res => res.json());
           return data
         }catch(err){
            throw new Error(err)
