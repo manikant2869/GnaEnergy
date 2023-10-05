@@ -15,7 +15,6 @@ export default function SignUp() {
     const value = target.value
     const newSignUpField = {...signupField}
     newSignUpField[name] = value;
-    console.log(newSignUpField);
     setSignUpField(prev => newSignUpField)
   }
   const [errorMessage,updateErrorMessage] = useState({message : ""}); 

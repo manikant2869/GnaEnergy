@@ -37,7 +37,6 @@ export default function Login() {
     const value = target.value;
     const newSignInField = { ...siginField };
     newSignInField[name] = value;
-    console.log(newSignInField);
     setSignInField((prev) => newSignInField);
   }
   return (
