@@ -3,7 +3,7 @@ import { Slider } from "@mui/material";
 import NorthEastOutlinedIcon from '@mui/icons-material/NorthEastOutlined';
 import { useEffect, useState } from "react";
 import { createElement } from "react";
-export default function Home() {
+export default function Main() {
   const data = datacontent;
   const [priceRange, setPriceRange] = useState([0, 1000]);
   const [filteredlist, setFilteredList] = useState(data);
