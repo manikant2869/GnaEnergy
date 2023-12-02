@@ -1,0 +1,16 @@
+hotelBasicInfo.hotelImg
+hotelBasicInfo.hotelName
+hotelBasicInfo.price
+hotelBasicInfo.originalPrice
+hotelBasicInfo.onlineTaxPrice
+hotelStarInfo.star
+commentInfo.commentScore
+commentInfo.commentDescription
+commentInfo.commenterNumber
+positionInfo.positionDesc
+tags[0].value --> for discount percentage
+tags[1].name   ----> for OneSentenceComment
+
+roomInfo.bed.contentListHover
+roomInfo.physicalRoomName
+discountLabels[0] ? discountLabels[0].value

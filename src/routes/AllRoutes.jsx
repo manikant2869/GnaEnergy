@@ -1,27 +1,19 @@
-import {
-    createBrowserRouter,
-  } from "react-router-dom";
 
-  import Home from "../pages/home";
-  import Login from "../pages/login";
-  import SignUp from "../pages/signup";
 
-  
+import React, { useState, useEffect, useContext } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import DefaultLayout from "../containers/DefaultLayout";
+import Home from "../pages/Home"
 
- const Router = createBrowserRouter([
-    {
-        path : "/",
-        element : <Home/>
 
-    },
-    {
-        path : "/signup",
-        element : <SignUp />
-    },
-    {
-        path : "/login",
-        element : <Login />
-    }
+function AllRoutes() {
 
-])
-export default Router
+  return (
+    <DefaultLayout>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+    </DefaultLayout>
+  ) 
+}
+export default AllRoutes;
