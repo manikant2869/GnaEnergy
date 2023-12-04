@@ -3,7 +3,7 @@ import DraftsOutlinedIcon from '@mui/icons-material/DraftsOutlined';
 export default function Footer() {
   return (
     <section>
-      <div className="row bg-blue p-3 my-2 footer-width">
+      <div className="row footer_section p-3 my-2 footer-width">
         <div className="col-lg-6">
            <div className="row">
             <div className="col-sm-2 mt-2">
@@ -22,7 +22,7 @@ export default function Footer() {
             
             </div>
             <div className="col-lg-4 my-auto">
-            <button type="button" className="btn btn-blue text-white  w-75" style={{padding:"12px"}}>Subscribe</button>
+            <button type="button" className="btn subscribe_btn text-white  w-75" style={{padding:"12px"}}>Subscribe</button>
             </div>
           </div>
         </div>

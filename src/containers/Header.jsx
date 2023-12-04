@@ -6,7 +6,7 @@ import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 function Header() {
   return (
     <div className="header-height ">
-      <p className="text-center fs-1 py-2"> Tours in London</p>
+      <p className="text-center fs-1 py-2 tours"> Tours in London</p>
       <div className="search-height my-3">
         <div className="row ">
           <div className="col-4 my-2 ms-0 text-start ">
@@ -30,7 +30,7 @@ function Header() {
                 </p>
               </div>
               <div className="col-6 my-2  text-center">
-                <button className="btn btn-primary p-3 fs-6 ms-2"><span><SearchIcon /></span>Search</button>
+                <button className="btn search_btn p-3 fs-6 ms-2"><span><SearchIcon /></span>Search</button>
               </div>
             </div>
           </div>

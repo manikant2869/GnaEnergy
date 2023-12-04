@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 export default function Navbar() {
    return(
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-light navbar_item">
       <div className="container-fluid">
         <a className="navbar-brand text-white fw-light fs-1 ms-4" href="#">
           TripWeb
